@@ -1,0 +1,89 @@
+{
+    "profesores": [
+        {
+            "id": "1",
+            "nombre": "Sergio",
+            "apellidos": "Perez",
+            "edad": 35,
+            "asignaturas": [
+                "1"
+            ]
+        },
+        {
+            "id": "2",
+            "nombre": "Maria",
+            "apellidos": "Lopez",
+            "edad": 30,
+            "asignaturas": [
+                "2"
+            ]
+        },
+        {
+            "id": "3",
+            "nombre": "Luis",
+            "apellidos": "Gonzalez",
+            "edad": 28,
+            "asignaturas": [
+                "3"
+            ]
+        }
+    ],
+    "estudiantes": [
+        {
+            "id": "1",
+            "nombre": "Ana",
+            "apellidos": "Perez",
+            "edad": 20,
+            "cursos": [
+                "1"
+            ]
+        },
+        {
+            "id": "2",
+            "nombre": "Juan",
+            "apellidos": "Lopez",
+            "edad": 25,
+            "cursos": [
+                "2"
+            ]
+        },
+        {
+            "id": "3",
+            "nombre": "Pedro",
+            "apellidos": "Gonzalez",
+            "edad": 22,
+            "cursos": [
+                "3"
+            ]
+        }
+    ],
+    "cursos": [
+        {
+            "id": "1",
+            "nombre": "Programacion Web",
+            "horario": "Lunes y Miércoles 9:00 - 11:00",
+            "profesor": "1",
+            "estudiantes": [
+                "1"
+            ]
+        },
+        {
+            "id": "2",
+            "nombre": "POO y Estructuras de datos",
+            "horario": "Martes y Jueves 10:00 - 12:00",
+            "profesor": "2",
+            "estudiantes": [
+                "2"
+            ]
+        },
+        {
+            "id": "3",
+            "nombre": "Ciclos y funciones",
+            "horario": "Viernes 13:00 - 15:00",
+            "profesor": "3",
+            "estudiantes": [
+                "3"
+            ]
+        }
+    ]
+}
